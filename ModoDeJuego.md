@@ -93,4 +93,4 @@ termina hasta que pierde un territorio o decide dejar de atacar.
 ## Distribución del mapa :dart: :world_map:
 
 La distribución de los territorios se puede ver en la siguiente imagen:
-![Distribución de los territorios](https://es.wikipedia.org/wiki/Risk#/media/Archivo:Risk_Game_Map_2004_Edition.png)
+![Distribución de los territorios](https://en.wikipedia.org/wiki/File:Risk_game_map.png)
