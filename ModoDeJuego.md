@@ -93,4 +93,40 @@ termina hasta que pierde un territorio o decide dejar de atacar.
 ## Distribución del mapa :dart: :world_map:
 
 La distribución de los territorios se puede ver en la siguiente imagen:
-![Distribución de los territorios](https://en.wikipedia.org/wiki/File:Risk_game_map.png)
+
+``` markdown
+	America del Norte:							America del Sur:
+	1.- Alaska									1.- Argentina
+	2.- Alberta									2.- Brasil
+	3.- México, América Central y el Caribe		   3.- Perú
+	4.- Estados Unidos del Este				  	  4.- Venezuela
+	5.- Groenlandia
+	6.- Territorio del Noroeste						
+	7.- Ontario
+	8.- Quebec
+	9.- Estados Unidos del Oeste
+				
+	Africa:									Oceania:									
+	1.- Congo								1.- Australia Oriental
+	2.- Africa Oriental						 2.- Indonesia
+	3.- Egipto								3.- Nueva Guinea
+	4.- Madagascar							 4.-Australia Occidental 
+	5.- Africa del Norte
+	6.- Sudáfrica
+	
+	Europa:									Asia:
+	1.- Gran Bretaña						 1.- Afganistan.
+	2.- Islandia							 2.- China
+	3.- Europa del Norte	   				  3.- India
+	4.- Escandinavia					      4.- Irkutsk
+	5.- Europa del Sur						  5.- Japon
+	6.- Ucrania								 6.- Kamchatka
+	7.- Europa Occidental					  7.- Oriente Medio
+											8.- Mongolia
+											9.- Siam
+											10.- Siberia
+											11.- Ural
+											12.- Yakutsk
+```
+
+![Distribución de los territorios](https://upload.wikimedia.org/wikipedia/commons/9/9d/Risk_game_map.png)
