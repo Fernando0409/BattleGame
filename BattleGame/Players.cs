@@ -69,7 +69,5 @@ namespace BattleGame
         /// </summary>
         /// <returns></returns>
         public int getScore() => score;
-
-        
     }
 }

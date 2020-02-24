@@ -83,5 +83,56 @@ namespace BattleGame
                 Console.WriteLine("Debe haber minimo 2 tropas por region");
         }
 
+        /// <summary>
+        /// This method allow attack to other country
+        /// where their border are together
+        /// </summary>
+        /// <param name="countryEnemy">Country that will be attack</param>
+        public void attack(Country countryEnemy)
+        {
+            int troopsAttack, troopsDeffend;
+
+            Console.Write("¿Con cuantas tropas atacaras " +this.getOwner()+"? ");
+            troopsAttack = int.Parse(Console.ReadLine());
+
+            if (troopsAttack < 4 && troopsAttack > 0)
+            {
+                int[] numbersAttack = new int[troopsAttack];
+                numbersAttack = generateNumbers(troopsAttack);
+                
+            }
+
+            Console.Write("¿Con cuantas tropas defenderas "+countryEnemy.getOwner()+"? ");
+            troopsDeffend = int.Parse(Console.ReadLine());
+
+            if (troopsDeffend < 4 && troopsDeffend > 0)
+            {
+                int[] numbersDeffend = new int[troopsDeffend];
+                numbersDeffend = generateNumbers(troopsDeffend);
+            }
+                
+        }
+
+        /// <summary>
+        /// Generate N numbers, this method simulated 
+        /// toss a die
+        /// </summary>
+        /// <param name="troops">Number to generate (1-3)</param>
+        /// <returns></returns>
+        private int[] generateNumbers(int troops)
+        {
+            Random random = new Random();
+            int[] numbersRandom = new int[troops];
+
+            for (int i = 0; i < troops; i++)
+            {
+                numbersRandom[i] = random.Next(1, 6);
+                Console.WriteLine(numbersRandom[i]);
+            }
+
+            Console.WriteLine();
+
+            return numbersRandom;
+        }
     }
 }
