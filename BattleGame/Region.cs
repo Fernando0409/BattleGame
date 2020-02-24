@@ -10,7 +10,7 @@ namespace BattleGame
     /// </summary>
     class Region
     {
-
+        /*
         // Countries' region
         private string[] asia = new string[13] {"Asia","Afganistan", "China", "India", "Irkutsk", "Japon", "Kamchatka", "Oriente Medio",
                                                 "Mongolia", "Siam", "Siberia", "Ural", "Yakutsk"};
@@ -62,7 +62,7 @@ namespace BattleGame
             return numCountries;
         }
 
-        public string[] getCountriesRegion(string region)
+       /* public string[] getCountriesRegion(string region)
         {
             if (asia[0].Equals(region))
                 return asia;
@@ -81,6 +81,6 @@ namespace BattleGame
 
             else if (oceania[0].Equals(region))
                 return oceania;
-        }
+        }*/
     }
 }
